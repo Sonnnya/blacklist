@@ -1,6 +1,15 @@
 # Запуск
 
+Среда разработчика:
+
 ```
+docker compose up --env-file dev.env
+```
+
+Для создания своей среды:
+
+```
+docker cp dev.env .env
 docker compose up
 ```
 
